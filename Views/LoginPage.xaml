@@ -4,13 +4,40 @@
              x:Class="AplicatieProiectMobil.Views.LoginPage"
              BackgroundImageSource="poza.jpg"
              Title="LoginPage">
-    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+
+    <ContentPage.Resources>
+        <Style TargetType="Entry">
+            <Setter Property="PlaceholderColor" Value="LightGray" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="Margin" Value="10,10,10,10" />
+            <Setter Property="HeightRequest" Value="50" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Blue" />
+            <Setter Property="TextColor" Value="Beige" />
+            <Setter Property="Margin" Value="10,10,10,10" />
+            <Setter Property="HeightRequest" Value="40" />
+            <Setter Property="CornerRadius" Value="5" />
+        </Style>
+
+        <Style TargetType="Label">
+            <!-- Adăugarea stilului bold, text mare și culoare neagră -->
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="FontSize" Value="Large" />
+            <Setter Property="TextColor" Value="Black" />
+        </Style>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="20">
+        <!-- Adăugarea textului dorit cu stil bold, text mare și culoare neagră -->
+        <Label Text="Intra in cont ca sa ti faci evenimentele memorabile" HorizontalOptions="Center" VerticalOptions="Center" />
 
         <Entry Placeholder="Username" Text="{Binding UserName}"></Entry>
 
-        <Entry Placeholder="Password" Text="{Binding MyloginRequestModel.Password}"></Entry>
-        <Button Text="Login" BackgroundColor="Blue" TextColor="Beige" Command="{Binding LoginCommand}"></Button>
+        <Entry Placeholder="Password" Text="{Binding MyloginRequestModel.Password}" IsPassword="True"></Entry>
 
-
+        <Button Text="Login" Command="{Binding LoginCommand}"></Button>
     </VerticalStackLayout>
 </ContentPage>
