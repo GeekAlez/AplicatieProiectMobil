@@ -14,29 +14,24 @@
         </OnPlatform>
     </Shell.BackgroundColor>
 
-    <FlyoutItem Route="Login">
-
-        <ShellContent ContentTemplate="{DataTemplate mylogin:LoginPage}"></ShellContent>
-    </FlyoutItem>
-    
     <TabBar>
         <ShellContent
             Title="About"
             ContentTemplate="{DataTemplate local:AboutPage}"
-            Icon="about_icon.jpg"/>
+            Icon="about_icon.png"/>
         <ShellContent
             Title="Lista restaurante"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage"
-            Icon="restaurant_icon.jpg" />
+            Icon="restaurant_icon.png" />
         <ShellContent
             Title="Pachete"
             ContentTemplate="{DataTemplate local:PachetPage}"
-            Icon="package_icon.img" />
+            Icon="package_icon.png" />
         <ShellContent
             Title="Review"
             ContentTemplate="{DataTemplate local:ReviewPage}"
-            Icon="review_icon.jpg" />
+            Icon="review_icon.png" />
     </TabBar>
 
 </Shell>

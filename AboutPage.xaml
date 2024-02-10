@@ -6,7 +6,7 @@
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
             <Image Source="shop_list.jpg" SemanticProperties.Description="Lista restaurante" HeightRequest="64" />
-            <Label FontSize="22" FontAttributes="Bold" Text="Lista restaurante disponibile" VerticalOptions="End" />
+            <Label FontSize="22" FontAttributes="Bold" Text="CONTACT" VerticalOptions="End" />
             <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
         </HorizontalStackLayout>
         <Label Text="Visul vostru este planul nostru!!"></Label>

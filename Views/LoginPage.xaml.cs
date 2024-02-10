@@ -1,4 +1,4 @@
-using AplicatieProiectMobil.ViewModels;
+/*using AplicatieProiectMobil.ViewModels;
 
 namespace AplicatieProiectMobil.Views;
 
@@ -9,4 +9,4 @@ public partial class LoginPage : ContentPage
 		InitializeComponent();
 		BindingContext = new LoginViewModel();
 	}
-}
+}*/

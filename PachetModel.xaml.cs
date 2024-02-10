@@ -19,8 +19,14 @@ namespace AplicatieProiectMobil
 
             var pachets = new List<PachetModel>
             {
-                new PachetModel { Eveniment = "Nunta", Restaurant = "Wonderland", Pret = "250/persoana", Informatii = "va urma", Promotii = "candy bar inclus pentru 150 de persoane, restul se plateste" },
-                new PachetModel { Eveniment = "Revelion", Restaurant = "La Cina", Pret = "450/persoana", Informatii = "va urma", Promotii = "open bar, spectacol de lumini, dj inclus" }
+                new PachetModel { Eveniment = "Nunta", Restaurant = "Wonderland", Pret = "250/persoana", Informatii = "va urma...", Promotii = "candy bar inclus pentru 150 de persoane, restul se va  plati" },
+               
+                new PachetModel { Eveniment = "Botez", Restaurant = "Wonderland", Pret = "220/persoana", Informatii = "va urma...", Promotii = "candy bar inclus pentru 150 de persoane, restul se  va plati" },
+                new PachetModel { Eveniment = "Nunta", Restaurant = "Sun Garden", Pret = "330/s", Informatii = "va urma...", Promotii = "candy bar inclus pentru 150 de persoane, restul se plateste" },
+               new PachetModel { Eveniment = "Nunta", Restaurant = "Wonderland", Pret = "250/persoana", Informatii = "va urma...", Promotii = "candy bar inclus pentru 150 de persoane, restul se plateste" },
+               new PachetModel { Eveniment = "Nunta", Restaurant = "Wonderland", Pret = "250/persoana", Informatii = "va urma...", Promotii = "candy bar inclus pentru 150 de persoane, restul se plateste" },
+               new PachetModel { Eveniment = "Nunta", Restaurant = "Wonderland", Pret = "250/persoana", Informatii = "va urma...", Promotii = "candy bar inclus pentru 150 de persoane, restul se plateste" },
+               
                 // Adăugați alte pachete aici
             };
 

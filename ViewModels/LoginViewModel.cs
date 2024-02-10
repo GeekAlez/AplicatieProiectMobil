@@ -1,4 +1,5 @@
-﻿using AplicatieProiectMobil.Models;
+﻿
+/*using AplicatieProiectMobil.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -49,3 +50,4 @@ namespace AplicatieProiectMobil.ViewModels
         }
     }
 }
+*/

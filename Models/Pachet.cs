@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 namespace AplicatieProiectMobil.Models
 {
-    class Pachet
+    public class Pachet
     {
         public string Eveniment { get; set; }
         public string Locatie { get; set; }
