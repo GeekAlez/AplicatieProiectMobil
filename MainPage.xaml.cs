@@ -37,7 +37,6 @@ namespace AplicatieProiectMobil
                 var label = new Label
                 {
                     Text = $"{Restaurant.Nume}\n{Restaurant.Capacitate}\n{Restaurant.Locatie}",
-                    TextColor = Color.FromHex("#808000"),
                     FontAttributes = FontAttributes.Bold | FontAttributes.Italic,
                     
                 };

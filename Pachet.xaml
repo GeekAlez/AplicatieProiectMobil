@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicatieProiectMobil.Pachet"
+             xmlns:vm="clr-namespace:AplicatieProiectMobil.ViewModels"
+             xmlns:models="clr-namespace:AplicatieProiectMobil.Models"
+             xmlns:local="clr-namespace:AplicatieProiectMobil"
+             x:DataType="vm:PachetViewModel">
+    
+    <VerticalStackLayout Padding="10, 15">
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Buna, &#10;"
+                          TextColor="LightBlue"
+                          FontSize="20"/>
+                    <Span Text=" Alexandra"
+                          TextColor="{StaticResource Blue100Accent}"
+                          FontSize="22"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <BoxView HeightRequest="25"
+                 Color="#E0FFFF"/>
+
+        <CollectionView ItemsSource="{Binding Categories}">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Category">
+                    <Border>
+                        <Label Text="{Binding Nume}"/>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+    </VerticalStackLayout>
+</ContentPage>
