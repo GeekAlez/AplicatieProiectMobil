@@ -32,6 +32,7 @@ namespace AplicatieProiectMobil.Services
                 };
 
                 categories.AddRange(botez);
+                _categories = categories;
             }
             return _categories;
         }

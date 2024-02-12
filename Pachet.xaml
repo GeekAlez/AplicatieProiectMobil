@@ -22,7 +22,7 @@
         </Label>
 
         <BoxView HeightRequest="25"
-                 Color="#E0FFFF"/>
+                 Color="Transparent"/>
 
         <CollectionView ItemsSource="{Binding Categories}">
             <CollectionView.ItemsLayout>
