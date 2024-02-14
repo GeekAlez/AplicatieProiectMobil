@@ -21,7 +21,7 @@
         <toolkit:StatusBarBehavior StatusBarColor= "{StaticResource Tertiary}" />
     </Shell.Behaviors>
 
-    
+
     <TabBar>
         <ShellContent
             Title="About"
@@ -33,7 +33,7 @@
             Route="MainPage"
            Icon="dotnet_bot"/>
         <ShellContent
-            Title="Pachete"
+            Title="Categorii"
             ContentTemplate="{DataTemplate local:Pachet}"
             Icon="dotnet_bot"/>
         <ShellContent
@@ -43,7 +43,7 @@
         <ShellContent
             Title="Rezervare"
             ContentTemplate="{DataTemplate local:RezervarePage}"
-            Icon="dotnet_bot"/> 
+            Icon="dotnet_bot"/>
     </TabBar>
 
 </Shell>

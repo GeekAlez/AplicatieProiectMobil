@@ -25,15 +25,16 @@ namespace AplicatieProiectMobil.ViewModels
         {
             try
             {
-                foreach(var category in await _categoryService.GetMainCategoriesAsync()) 
+                foreach (var category in await _categoryService.GetMainCategoriesAsync())
                 {
                     Categories.Add(category);
                 }
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine($"Eroare în timpul inițializării: {ex.Message}");
             }
-            
+
         }
     }
 }

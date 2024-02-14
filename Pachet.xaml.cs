@@ -1,4 +1,5 @@
 using AplicatieProiectMobil.ViewModels;
+using AplicatieProiectMobil;
 
 namespace AplicatieProiectMobil;
 
@@ -7,7 +8,7 @@ public partial class Pachet : ContentPage
 
     private readonly PachetViewModel _viewModel;
 
-   
+
     public Pachet(PachetViewModel viewModel)
     {
         InitializeComponent();
@@ -19,6 +20,11 @@ public partial class Pachet : ContentPage
         base.OnAppearing();
         await _viewModel.InitializeAsync();
     }
+
+    private void OnButtonClicked(object sender, EventArgs e)
+    {
+        var paginaPachete = new PaginaPachete();
+        Navigation.PushAsync(paginaPachete);
+    }
 }
 
-  

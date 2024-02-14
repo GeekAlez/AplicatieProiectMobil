@@ -8,5 +8,10 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <StackLayout>
+            <Entry Text="Pachet nr.1 Nunta la castel" Margin="10,0,10,0"/>
+            <Entry Text="Pachet nr.1 Nunta la castel" Margin="10,0,10,0"/>
+        </StackLayout>
+        
     </VerticalStackLayout>
 </ContentPage>

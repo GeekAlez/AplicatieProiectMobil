@@ -1,4 +1,4 @@
-namespace AplicatieProiectMobil;
+﻿namespace AplicatieProiectMobil;
 
 public partial class RezervarePage : ContentPage
 {
