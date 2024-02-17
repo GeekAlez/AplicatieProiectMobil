@@ -78,12 +78,13 @@
 
 
 
-        <Label Text="Data nașterii:" />
+        <Label Text="luna miere:" />
         <DatePicker />
 
         <Label Text="Abonat la newsletter:" />
         <Switch />
 
         <Button Text="Trimite" Clicked="OnTrimiteClicked" />
+        <Button Text="Logout" BackgroundColor="Aquamarine"  TextColor="Black" Clicked="OnLogoutClicked"></Button>
     </StackLayout>
 </ContentPage>

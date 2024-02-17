@@ -1,4 +1,6 @@
-﻿namespace AplicatieProiectMobil
+﻿using AplicatieProiectMobil.Models;
+
+namespace AplicatieProiectMobil
 {
     public partial class App : Application
     {

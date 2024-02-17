@@ -22,6 +22,12 @@
     </Shell.Behaviors>
 
 
+    <FlyoutItem Route="Login">
+
+        <ShellContent ContentTemplate="{DataTemplate mylogin:LoginPage}"></ShellContent>
+    </FlyoutItem>
+
+
     <TabBar>
         <ShellContent
             Title="About"
