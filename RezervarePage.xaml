@@ -5,7 +5,7 @@
              Title="Rezervare">
     <StackLayout>
         <Label Text="Nume:" />
-        <Entry Placeholder="Introduceți numele" />
+        <Entry Placeholder="Introduceți numele" TextChanged="OnEntryTextChanged"/>
 
         <Label Text="Email:" />
         <Entry Placeholder="Introduceți adresa de email" />

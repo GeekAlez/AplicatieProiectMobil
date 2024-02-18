@@ -32,7 +32,7 @@
     </ContentPage.Resources>
 
     <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="20">
-        <Label Text="Intra in cont ca sa ti faci evenimentele memorabile" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Label Text="LOGIN" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" />
 
         <Entry Placeholder="Username" Text="{Binding UserName}"></Entry>
 
